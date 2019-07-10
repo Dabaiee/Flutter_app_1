@@ -10,8 +10,8 @@ class DrawerDemo extends StatelessWidget {
         children: <Widget>[
           UserAccountsDrawerHeader(
             accountName:
-            Text('wanghao', style: TextStyle(fontWeight: FontWeight.bold)),
-            accountEmail: Text('wanghao@ninghao.net'),
+            Text('Tianzhi', style: TextStyle(fontWeight: FontWeight.bold)),
+            accountEmail: Text('tianzhi@gmail.com'),
             currentAccountPicture: CircleAvatar(
               backgroundImage: NetworkImage(
                   'https://resources.ninghao.org/images/wanghao.jpg'),
