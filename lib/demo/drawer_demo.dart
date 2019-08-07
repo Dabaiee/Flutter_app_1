@@ -13,8 +13,9 @@ class DrawerDemo extends StatelessWidget {
             Text('Tianzhi', style: TextStyle(fontWeight: FontWeight.bold)),
             accountEmail: Text('tianzhi@gmail.com'),
             currentAccountPicture: CircleAvatar(
-              backgroundImage: NetworkImage(
-                  'https://resources.ninghao.org/images/wanghao.jpg'),
+                backgroundImage: AssetImage(
+                  'images/profile.jpg'
+                ),
             ),
             decoration: BoxDecoration(
               color: Colors.yellow[400],
