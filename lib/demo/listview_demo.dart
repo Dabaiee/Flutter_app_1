@@ -10,7 +10,7 @@ class ListViewDemo extends StatelessWidget{
       margin: EdgeInsets.all(8.0),
       child: Column(
         children: <Widget>[
-          Image.network(posts[index].imageUrl),
+          Image.asset(posts[index].imageUrl),
           SizedBox(height: 16.0,),
           Text(
               posts[index].title,
